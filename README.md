@@ -26,7 +26,7 @@ You are provided with a library (as a JAR file) that contains a single class (`F
 Your initial tasks for this part of the lab activity are to:
 * clone this GitHub repository to either your own machine or to a machine in the lab;
 * set up Eclipse to include the `fibonacci/Fibonacci.jar` file as a library [1];
-* include the Javadoc documentation that accompanies `Finbonacci.jar` [2];
+* include the Javadoc documentation that accompanies `Fibonacci.jar` [2];
 * create an appropriate class and a main( ) method so that you can test the correctness of `getFibonacci( )`;
 * after running the tests, describe in a text file named `testStrategy.txt` your approach to testing, any problems uncovered and whether you consider your testing strategy efficient.
 
