@@ -39,5 +39,7 @@ After the initial tasks:
 
 Once you have completed these steps, proceed to Part B (http://github.com/EECE-210/lab1b) of this lab activity.
 
+=====
+
 1. To include a JAR file to the list of libraries Eclipse uses for a project, use the `Project > Properties` menu in Eclipse. Select `Build Path` and then select the `Libraries` tab. Then `Add External JARs`. Locate the appropriate JAR file and include it in the list of libraries. 
 2. To add the Javadoc documentation, after you have add the JAR as a library, you will see a drop-down list in the `Libraries` tab of the `Build Path` menu for the library that you have just added. (This is indicated by the triangle at the left of the library name. Click on the triangle.) You will then see an item named `Javadoc location`. `Edit` this option and choose `Javadoc URL`. Browse to the path `lab1a/fibonacci/docs/` and select the folder. Click `Validate` and you should get a message that says that the location is likely valid. Select `OK` and confirm all choices.
