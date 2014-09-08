@@ -25,11 +25,10 @@ You are provided with a library (as a JAR file) that contains a single class (`F
 
 Your initial tasks for this part of the lab activity are to:
 * clone this GitHub repository to either your own machine or to a machine in the lab;
-* set up Eclipse to include the `fibonacci/Fibonacci.jar` file as a library;
+* set up Eclipse to include the `fibonacci/Fibonacci.jar` file as a library [1];
+* include the Javadoc documentation that accompanies `Finbonacci.jar` [2];
 * create an appropriate class and a main( ) method so that you can test the correctness of `getFibonacci( )`;
 * after running the tests, describe in a text file named `testStrategy.txt` your approach to testing, any problems uncovered and whether you consider your testing strategy efficient.
-
-To include a JAR file to the list of libraries Eclipse uses for a project, use the `Project > Properties` menu in Eclipse. Select the `Libraries` tab and then `Add External JARs`. Locate the appropriate JAR file and include it in the list of libraries.
 
 After the initial tasks:
 * create a repository in your BitBucket account called `lab1a`;
@@ -39,3 +38,6 @@ After the initial tasks:
 * and push the file to the BitBucket repository.
 
 Once you have completed these steps, proceed to Part B (http://github.com/EECE-210/lab1b) of this lab activity.
+
+1. To include a JAR file to the list of libraries Eclipse uses for a project, use the `Project > Properties` menu in Eclipse. Select `Build Path` and then select the `Libraries` tab. Then `Add External JARs`. Locate the appropriate JAR file and include it in the list of libraries. 
+2. To add the Javadoc documentation, after you have add the JAR as a library, you will see a drop-down list in the `Libraries` tab of the `Build Path` menu for the library that you have just added. (This is indicated by the triangle at the left of the library name. Click on the triangle.) You will then see an item named `Javadoc location`. `Edit` this option and choose `Javadoc URL`. Browse to the path `lab1a/fibonacci/docs/` and select the folder. Click `Validate` and you should get a message that says that the location is likely valid. Select `OK` and confirm all choices.
