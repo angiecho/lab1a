@@ -31,11 +31,11 @@ Your initial tasks for this part of the lab activity are to:
 * after running the tests, describe in a text file named `testStrategy.txt` your approach to testing, any problems uncovered and whether you consider your testing strategy efficient.
 
 After the initial tasks:
-* create a repository in your BitBucket account called `lab1a`;
+* create a **private** repository in your BitBucket account called `lab1a`;
 * add the teaching assistant for your lab session as a user of that repository;
 * clone the BitBucket repository to a local machine;
 * copy the `testStrategy.txt` file to the root of the local repository;
-* and push the file to the BitBucket repository.
+* and commit & push the file to the BitBucket repository [3].
 
 Once you have completed these steps, proceed to Part B (http://github.com/EECE-210/lab1b) of this lab activity.
 
@@ -43,3 +43,4 @@ Once you have completed these steps, proceed to Part B (http://github.com/EECE-2
 
 1. To include a JAR file to the list of libraries Eclipse uses for a project, use the `Project > Properties` menu in Eclipse. Select `Build Path` and then select the `Libraries` tab. Then `Add External JARs`. Locate the appropriate JAR file and include it in the list of libraries. 
 2. To add the Javadoc documentation, after you have add the JAR as a library, you will see a drop-down list in the `Libraries` tab of the `Build Path` menu for the library that you have just added. (This is indicated by the triangle at the left of the library name. Click on the triangle.) You will then see an item named `Javadoc location`. `Edit` this option and choose `Javadoc URL`. Browse to the path `lab1a/fibonacci/docs/` and select the folder. Click `Validate` and you should get a message that says that the location is likely valid. Select `OK` and confirm all choices.
+3. To commit and push changes to a remote repository using Eclipse, right-click on the appropriate project, select the `Team > Commit...` item. Add a commit message (what are you commiting, what has changed, etc.), select the files that you want to commit and push and then select the `Commit and Push` option. You will be asked to enter your access credentials for BitBucket.
